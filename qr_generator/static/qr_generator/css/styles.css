@@ -1,0 +1,70 @@
+/* Custom styles for QR code generator */
+body {
+    background-color: #f4f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 250px;
+    margin-top: 20px;
+}
+.qr-card {
+    width: 300px; /* Adjust width of the card */
+    padding: 20px; /* Control internal padding */
+    margin: 0 auto; /* Center the card horizontally */
+    background-color: #fff; /* Background color of the card */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.qr-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-card input {
+    width: 100%; /* Full width for input */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Border style */
+    border-radius: 5px; /* Rounded corners for the input */
+}
+
+.qr-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qr-card button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.qr-output {
+    margin-top: 20px; /* Space between form and output */
+    text-align: center;
+}
